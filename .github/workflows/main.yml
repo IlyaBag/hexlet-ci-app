@@ -1,8 +1,8 @@
 name: learning GitHub Actions
 on: push
 jobs:
-setup:
-runs-on: ubuntu-latest
-steps:
-- uses: action/checkout@v3
-- run: make setup
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v3
+      - run: make setup
